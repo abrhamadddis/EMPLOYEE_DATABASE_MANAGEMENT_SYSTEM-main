@@ -1,0 +1,150 @@
+  <style>
+  body{
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6em;
+    margin: 0;*/
+    background: #e6e6e6;
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* background-color: #5399c7; */
+}
+   section {   
+    text-align: center;
+    max-width: 950px;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    overflow: hidden;
+    border: #333;
+    float: center;
+    
+   }
+  .list {
+    background-color: #e6e6e6;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    background: #ddd;
+  }
+  .list thead tr {
+    background-color: #556;
+    color: #ffffff;
+    text-align: left;
+    }
+  .list th,
+  .list td {
+    padding: 12px 10px;
+    justify-content: center;
+    overflow: hidden;
+    }
+  .list tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  .list tbody tr:nth-of-type(even) {
+   background-color: #cccccc;
+  }
+  .list tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  .list tbody tr a{
+    color: blue;
+  }
+ .container{
+ 
+    padding-bottom: 15px;
+    background: #cadada;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+  }
+  .container h3{
+    color: #333;
+    font-size: 25px;
+    align-items: center;
+  }
+  .displayBtn {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: none;
+    display: inline-block;
+    background: #555;
+    color: #fff;
+    border-radius: 8px;
+    margin: 0px 10px -15px 20px;
+
+  }
+  .clearBtn {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: none;
+    display: inline-block;
+    background: #845;
+    color: #fff;
+    border-radius: 8px;
+    margin: 10px 0px -15px 100px;
+ 
+
+  }
+  .idBtn:hover,
+  .sectorBtn:hover,
+  .clearBtn:hover, 
+  .displayBtn:hover {
+    transform: scale(1.1);
+   }
+  .searchId,
+  .searchSector{
+    display: inline-block;
+    margin: -15px 5px;
+  }
+  .inputId,
+  .inputSector{
+    width: 100%;
+    padding: 8px;    
+    margin: -15px 0px 0px 0px;
+    border-radius: 12px;
+    border: 1px solid rgb(108, 182, 97);
+  }
+   
+  .idBtn,
+  .sectorBtn {   
+    margin: 5px 0px 0px 20px;
+    background: #345;
+    color: #fff;
+    border-radius: 6px;
+    width: 40%;
+    height: 30px;
+  }
+  .wrapper{ 
+    margin: 150px 500px;
+    text-align: center;
+    padding: 20px;
+    width: 360px; 
+  }
+  .submitBtn{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: none;
+    background: #845;
+    color: #fff;
+    border-radius: 8px;
+  }
+  .submitBtn:hover {
+    transform: scale(1.1);
+  }
+  .form-group input[type="password"]{
+    width: 80%;
+    padding: 8px;
+    /* padding-top: 14px; */
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border-radius: 12px;
+    border: 1px solid rgb(108, 182, 97);
+}
+</style>
